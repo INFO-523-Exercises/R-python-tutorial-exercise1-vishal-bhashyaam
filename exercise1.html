@@ -58,16 +58,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/clipboard/clipboard.min.js"></script>
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/quarto.js"></script>
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/popper.min.js"></script>
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/anchor.min.js"></script>
-<link href="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="exercise1-R tutorial-vishal bhashyaam_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="exercise1-R tutorial-vishal bhashyaam_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="exercise1-R tutorial-vishal bhashyaam_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="exercise1-R tutorial-vishal bhashyaam_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="exercise1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="exercise1_files/libs/quarto-html/quarto.js"></script>
+<script src="exercise1_files/libs/quarto-html/popper.min.js"></script>
+<script src="exercise1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="exercise1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="exercise1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="exercise1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="exercise1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="exercise1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="exercise1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -142,7 +142,7 @@ nickname       Beagle Scouts                    </code></pre>
 <pre><code>package 'DMwR2' successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
-    C:\Users\ASUS\AppData\Local\Temp\RtmpW4gaf3\downloaded_packages</code></pre>
+    C:\Users\ASUS\AppData\Local\Temp\RtmpE9xLZE\downloaded_packages</code></pre>
 </div>
 </div>
 <p>Check what is available in the package, use <code>help()</code>, a window will appear with the documentation of the package.</p>
@@ -211,7 +211,7 @@ The downloaded binary packages are in
 <pre><code>package 'dbplyr' successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
-    C:\Users\ASUS\AppData\Local\Temp\RtmpW4gaf3\downloaded_packages</code></pre>
+    C:\Users\ASUS\AppData\Local\Temp\RtmpE9xLZE\downloaded_packages</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># installing an package so that it can removed later if not needed</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dbplyr)</span>
@@ -336,7 +336,7 @@ survival   "http://cran.us.r-project.org/src/contrib"</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>function (x, ...) 
 UseMethod("mean")
-&lt;bytecode: 0x0000018ba6a914f0&gt;
+&lt;bytecode: 0x000001aaaa14f970&gt;
 &lt;environment: namespace:base&gt;</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">help</span>(mean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -381,7 +381,7 @@ The results page should open in your browser shortly</code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "C:/Users/ASUS/Desktop/R-python-exercise1-vishal bhashyaam"</code></pre>
+<pre><code>[1] "C:/Users/ASUS/Desktop/R-python-exercise1-vishal bhashyaam/exercise1-R-python-tutorial-vishalbhashyaam"</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co">#setwd(), im not using it, since im using RStudio in posit cloud </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -467,13 +467,13 @@ The results page should open in your browser shortly</code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb65"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="fu">max</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">100</span>,<span class="dv">30</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 92</code></pre>
+<pre><code>[1] 100</code></pre>
 </div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb67"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">100</span>,<span class="dv">30</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 47.33333</code></pre>
+<pre><code>[1] 51.93333</code></pre>
 </div>
 </div>
 <p>We use <code>set.seed()</code></p>
@@ -2386,7 +2386,7 @@ $parents.name
 {
     inherits(x, "tbl_df")
 }
-&lt;bytecode: 0x0000018baf91d540&gt;
+&lt;bytecode: 0x000001aab2b0f028&gt;
 &lt;environment: namespace:tibble&gt;</code></pre>
 </div>
 </div>
