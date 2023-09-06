@@ -1,7 +1,12 @@
 ---
 title: "Exercise1 - Intro to R tutorial"
 author: "VISHAL BHASHYAAM"
-format: html
+format: 
+  
+  pdf: 
+    toc: true
+    number-sections: true
+    colorlinks: true
 editor: visual
 ---
 
@@ -21,6 +26,7 @@ R.version
 Installing "DMwR2" package to use Data mining in R, use `install.packages("package name")`
 
 ```{r,error=TRUE}
+if(!require("DMwR2"))
 install.packages("DMwR2",repos='http://cran.us.r-project.org')
 
 ```
@@ -67,6 +73,7 @@ Show packages loaded in the current session:
 If wrong package is loaded, we use `detach()` to remove from the session
 
 ```{r,error=TRUE}
+if(!require("dbplyr"))
 install.packages("dbplyr",repos='http://cran.us.r-project.org',ask=FALSE)
 # installing an package so that it can removed later if not needed
 library(dbplyr)
@@ -1439,6 +1446,8 @@ Columns can be defined based on other columns defined earlier. Tibbles cannot co
 ```{r}
 
 #tibble is already installed
+if(!require("tibble"))
+install.packages("tibble")
 library(tibble)
 ```
 
@@ -1454,6 +1463,7 @@ my.tibble
 Use the penguins data frame from the `palmerpenguins` package:
 
 ```{r,error=TRUE}
+if(!require("palmerpenguins"))
 install.packages("palmerpenguins")
 library(palmerpenguins)
 data(penguins)
